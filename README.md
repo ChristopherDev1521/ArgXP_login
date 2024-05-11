@@ -46,6 +46,30 @@ Una vez configures el UI de cypress para realizar la prueba real, te encontraras
 
 La estructura POM esta basada en 1 archivo de pruebas mas la carpeta page_objects en la que se encuentra acentada cada comando y movimiento a realizar por el framework de testing, en este caso cypress.
 
+![image](https://github.com/ChristopherDev1521/ArgXP_login/assets/151284229/5eb9bcd8-c14a-4f70-909f-4a52ceb8822b)
+
+   Aqui estructurada la informacion de codigo utilizando un beforeEach(() para realizar la seguidilla de pruebas por cada plataforma declarada asi una vez terminada una, comienza la otra enseguida. En este caso "Google, Apple y Microsoft".
+
+![image](https://github.com/ChristopherDev1521/ArgXP_login/assets/151284229/dfdbefaf-4755-4f11-9bd4-05b9371ce81f)
+
+   Aqui el archivo para la pagina principal.
+
+![image](https://github.com/ChristopherDev1521/ArgXP_login/assets/151284229/a1392e0b-274d-4e87-8487-eacfe1b33bd5)
+
+   Aqui la esctructura para una ves realizado click en "acceder" rediriga a pantalla de logeo. 
+   Terminos y condiciones es una ventana emergente que impacta la primera vez que se realiza la accion por lo tanto
+   cypress tiene la configuracion para realizar el checkbox de la ventana emergente y posteriormente hace click en aceptar para la configuracion siguiente, cual sea el metodo de registro elegido.
+
+![image](https://github.com/ChristopherDev1521/ArgXP_login/assets/151284229/fbdbb4da-d85b-4ccd-b06a-dc992e686753)
+
+   Estos son los botones de configuracion, segun los atributos o selectores en este caso busca la palabra "google, apple o microsoft" y realiza la accion en el mismo llevando a la ventana de terminos y condiciones.
+
+![image](https://github.com/ChristopherDev1521/ArgXP_login/assets/151284229/ecfe54e3-16c2-4e62-b952-31d880cb1e3b)
+
+Al ejecutar las pruebas, deberian realizarse sin problemas.
+
+Se ha probado tanto en Firefox, Edge y Chrome.
+
 
 ## Agradecimientos
 
