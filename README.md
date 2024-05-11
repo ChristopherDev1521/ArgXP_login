@@ -1,3 +1,7 @@
+# Carpeta de archivos Cypress Spec
+
+../cypress/e2e/ArgXP_LOGIN
+
 # Pruebas automatizadas de inicio de sesión en ArgXP
 
 Este repositorio contiene pruebas automatizadas para el proceso de acceso a inicio de sesión en la aplicación web ArgXP utilizando diferentes proveedores de autenticación como Google, Apple y Microsoft. 
