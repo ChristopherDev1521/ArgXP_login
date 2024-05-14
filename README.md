@@ -1,3 +1,12 @@
+# Sistema de versiones utilizados
+
+NPM version: 10.7
+NodeJS version: 20.13.1
+Cypress package version: 13.9.0
+Cypress binary version: 13.9.0
+Electron version: 27.3.10
+Bundled Node version: 18.17.1
+
 # Carpeta de archivos Cypress Spec
 
 ../cypress/e2e/test_login_spec.cy.js
